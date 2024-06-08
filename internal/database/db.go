@@ -9,7 +9,7 @@ import (
 
 var EntClient *ent.Client
 
-func initDB() {
+func InitDB() {
 	client, err := ent.Open("postgres", "host=localhost port=5433 user=surya dbname=postgres password=surya123 sslmode=disable")
 	if err != nil {
 		log.Fatalf("failed opening connection to postgres: %v", err)
