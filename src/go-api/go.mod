@@ -1,10 +1,11 @@
-module github.com/Alagusurya/go-api
+module github.com/AlagusuryaPeriyakaruppan/go-api
 
 go 1.22.3
 
 require github.com/gin-gonic/gin v1.10.0
 
 require (
+	entgo.io/ent v0.13.1 // indirect
 	github.com/bytedance/sonic v1.11.8 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
